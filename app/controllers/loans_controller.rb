@@ -11,4 +11,5 @@ class LoansController < ActionController::API
   def show
     render json: Loan.find(params[:id])
   end
+  
 end
